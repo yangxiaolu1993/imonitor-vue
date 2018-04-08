@@ -1,0 +1,33 @@
+.headerMain{
+    background: #4642ff;
+    height:45px;
+    line-height:45px;
+    position: relative;
+    color:#fff;
+    overflow: hidden;
+}
+.headerMain .topLeft{
+    float:left;
+    width: auto;
+}
+.headerMain .topLeft a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.headerMain .topRight{
+    float: right;
+}
+.headerMain .topRight li{
+    float: left;
+    margin-right: 70px;
+    height: 45px;
+    line-height: 45px;
+}
+.headerMain .topRight li a{
+    color: #fff;
+}
+.headerMain .topRight li a i{
+    margin-right: 13px;
+}

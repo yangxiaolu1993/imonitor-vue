@@ -1,0 +1,105 @@
+.el-header {
+  padding: 0px;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+}
+
+.el-aside {
+  padding: 0px;
+  position: fixed;
+  top: 91px;
+  left: 0px;
+  bottom: 0px;
+  background: #fafafb;
+  z-index: 10;
+  border-top: 1px solid #e2e3e4;
+}
+
+.el-main {
+  border-top: 1px solid #e2e3e4;
+  padding: 10px 0;
+}
+
+/*.content{*/
+/*position: fixed;top:173px;right:0px;left:173px;bottom: 0px;overflow:auto;padding-left: 1px*/
+/*}*/
+.content {
+  position: fixed;
+  top: 160px;
+  right: 0px;
+  left: 173px;
+  bottom: 0px;
+  overflow: auto;
+  padding-left: 1px
+}
+
+.content-no-menu {
+  position: fixed;
+  top: 90px;
+  right: 0px;
+  left: 173px;
+  bottom: 0px;
+  overflow: auto;
+  padding-left: 1px
+}
+
+.content-no-side {
+  position: fixed;
+  top: 173px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  overflow: auto;
+  padding-left: 1px
+}
+.content-no-side-no-menu {
+  position: fixed;
+  top: 90px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  overflow: auto;
+  padding-left: 1px
+}
+
+.el-menu {
+  position: fixed;
+  left: 174px;
+  right: 0px;
+  top: 98px;
+}
+
+.el-menu--horizontal > .el-menu-item {
+  width: 12.5%;
+  padding: 0 50px;
+}
+
+.el-menu--horizontal > .el-menu-item a {
+  display: inline-block;
+  height: 60px;
+  color: #444
+}
+
+.el-menu--horizontal > .el-menu-item.is-active {
+  border-bottom: 0px;
+}
+
+.el-menu--horizontal > .el-menu-item.is-active a {
+  height: 55px;
+  border-bottom: 5px solid #4642ff;
+}
+
+.el-menu {
+  border-top: 1px solid #e2e3e4;
+  border-bottom: 1px solid #e2e3e4;
+}
+
+.side {
+  position: fixed;
+  left: 0px;
+  top: 91px;
+  bottom: 0px;
+  width: 174px;
+}

@@ -1,0 +1,27 @@
+.slide {
+  overflow: auto;
+  z-index: 10;
+  margin-bottom: 55px;
+  border-right: 1px solid #e2e3e4;
+  background: #fafafb;
+}
+
+.customization {
+  position: fixed;
+  bottom: 20px;
+  left: 25px;
+  padding-left: 15px;
+  line-height: 30px;
+  width: 105px;
+  font-size: 13px;
+  height: 30px;
+  background: #4643ff;
+  border-radius: 10px;
+  color: white;
+
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

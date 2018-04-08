@@ -1,0 +1,30 @@
+.hoverDialog-box {
+  padding-left: 12px;
+  position: fixed;
+  z-index: 10;
+  top: 350px;
+  left: 55px;
+}
+
+.hoverDialog {
+  padding: 10px;
+  background: #ffffff;
+  box-shadow: 2px 2px 2px 2px #22222222;
+  border-radius: 4px;
+}
+
+.hoverDialog div {
+  height: 23px;
+}
+
+.hoverDialog span {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 12px;
+  line-height: 23px;
+  font-size: 13px;
+  color: #444;
+}
