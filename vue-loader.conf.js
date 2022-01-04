@@ -1,6 +1,7 @@
 'use strict'
 const utils = require('./utils')
 const config = require('../config')
+const autoprefixer = require('../postcss.config')
 const isProduction = process.env.NODE_ENV === 'production'
 const sourceMapEnabled = isProduction
   ? config.build.productionSourceMap
@@ -18,5 +19,6 @@ module.exports = {
     source: 'src',
     img: 'src',
     image: 'xlink:href'
-  }
+  },
+  postcss: [autoprefixer.plugins[0]]
 }

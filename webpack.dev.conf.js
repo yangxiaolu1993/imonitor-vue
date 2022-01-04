@@ -44,7 +44,9 @@ const devWebpackConfig = merge(baseWebpackConfig, {
       poll: config.dev.poll,
     }
   },
+  // 插件
   plugins: [
+    // webpack 内置插件
     new webpack.DefinePlugin({
       'process.env': require('../config/dev.env')
     }),
